@@ -1,9 +1,14 @@
-
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+@media (min-width: 1024px) {
+}
 body {
   font-family: 'Roboto', sans-serif;
-  margin-left: 500px;
+  margin-left: 10%;
   margin-top: 0;
-  padding-right: 500px;
+  padding-right: 10%;
   background-image: url('technology-binary-number-programming-wallpaper-5120x2880_55.jpg');
   background-size: 250%;
   color: white;
