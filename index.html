@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Encriptador/Desencriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+        
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Encriptador</h1>
+        <div class="input-group">
+            <label for="inputTexto">Ingrese texto:</label>
+            <input type="text" id="inputTexto" placeholder="Ingrese un texto">
+        </div>
+        <button class="button" onclick="procesarTexto('encriptar')">Encriptar</button>
+        <button class="button" onclick="procesarTexto('desencriptar')">Desencriptar</button>        
+                <div class="result">
+            <label for="resultado">Texto procesado: </label>
+            <textarea id="resultado" placeholder="Texto procesado" readonly></textarea>
+            <button class="copy" onclick="copiarTexto()">Copiar texto</button>
+        </div>
+    </div>
+</body>
+</html>
